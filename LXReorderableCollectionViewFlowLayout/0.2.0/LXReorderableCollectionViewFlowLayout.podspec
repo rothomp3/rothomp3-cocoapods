@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '5.0'
   s.source_files = 'LXReorderableCollectionViewFlowLayout/'
   s.public_header_files = 'LXReorderableCollectionViewFlowLayout/'
-  s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'PSTCollectionView'
+  s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore'
+  s.dependency 'PSTCollectionView'
   s.requires_arc = true
 end
